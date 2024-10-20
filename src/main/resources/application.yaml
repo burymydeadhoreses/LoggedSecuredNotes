@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db
+    username: burymydeadhoreses
+    password: qwerty
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  file:
+    path: logs/spring.log
+  level:
+    root: OFF
+    io.github.burymydeadhoreses: INFO
+
